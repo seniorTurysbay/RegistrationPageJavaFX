@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #3f489d;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="97.0" prefHeight="302.0" prefWidth="707.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="loginSignInButton" layoutX="357.0" layoutY="204.0" mnemonicParsing="false" style="-fx-background-color: #3f489d; -fx-border-radius: 4px;" text="Sign in" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="login_field" layoutX="357.0" layoutY="69.0" prefHeight="25.0" prefWidth="269.0" promptText="Email" style="-fx-border-color: #5967d6; -fx-background-color: #ffffff; -fx-border-radius: 4px;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password_field" layoutX="357.0" layoutY="110.0" prefHeight="25.0" prefWidth="269.0" promptText="Password" style="-fx-border-color: #5967d6; -fx-background-color: #ffffff; -fx-border-radius: 4px;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="457.0" layoutY="7.0" prefHeight="41.0" prefWidth="69.0" style="-fx-background-color: #fafafa;" text="Login" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="408.0" fitWidth="326.0" layoutX="-7.0" layoutY="-102.0">
+               <image>
+                  <Image url="@assets/pic.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="registerSignUpButton" layoutX="544.0" layoutY="204.0" mnemonicParsing="false" style="-fx-background-color: #7b86e0; -fx-border-radius: 4px;" text="Sign up" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="397.0" layoutY="27.0" prefHeight="70.0" prefWidth="163.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

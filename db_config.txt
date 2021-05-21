@@ -1,0 +1,12 @@
+jdbc:mysql://localhost:3306/hr","root","root"
+
+jdbc:mysql://server:3306/name","username","password"
+
+jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11412801","sql11412801","USAIZESuNf"
+
+DBMS: MySQL (ver. 5.5.62-0ubuntu0.14.04.1)
+Case sensitivity: plain=exact, delimited=exact
+Driver: MySQL Connector/J (ver. mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199), JDBC4.2)
+Ping: 395 ms
+SSL: no
+
