@@ -8,7 +8,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <SplitPane orientation="VERTICAL" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.todo.TodoController">
    <items>
       <AnchorPane prefHeight="0.0" prefWidth="700.0">
@@ -16,9 +15,10 @@
             <AnchorPane prefHeight="60.0" prefWidth="700.0" style="-fx-background-color: green;">
                <children>
                   <DatePicker fx:id="datePicker" layoutX="119.0" layoutY="19.0" />
-                  <TextField fx:id="descriptionTextField" layoutX="317.0" layoutY="19.0" prefHeight="25.0" prefWidth="358.0" promptText="Event Description" style="-fx-text-fill: black;" />
-                  <Button fx:id="addEventBtn" layoutX="24.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Add Event" />
+                  <TextField fx:id="descriptionTextField" layoutX="308.0" layoutY="19.0" prefHeight="25.0" prefWidth="314.0" promptText="Event Description" style="-fx-text-fill: black;" />
+                  <Button fx:id="addEventBtn" layoutX="24.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-text-fill: black;" text="Add Event" />
                   <Separator layoutX="107.0" layoutY="2.0" orientation="VERTICAL" prefHeight="144.0" prefWidth="6.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="107.0" AnchorPane.topAnchor="2.0" />
+                  <Button fx:id="homeBtn" layoutX="631.0" layoutY="15.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Home" />
                </children>
             </AnchorPane>
             <ListView fx:id="eventList" layoutY="60.0" prefHeight="193.0" prefWidth="700.0" />
