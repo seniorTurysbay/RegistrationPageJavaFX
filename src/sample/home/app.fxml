@@ -36,6 +36,11 @@
                   <Image url="@../assets/uk.png" />
                </image>
             </ImageView>
+            <Button fx:id="todoBtn" layoutX="262.0" layoutY="130.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="183.0" style="-fx-background-color: #3f489d;" text="ToDo list" textFill="#fafafa">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
             </children>
         </AnchorPane>
         <Label layoutX="268.0" layoutY="14.0" prefHeight="70.0" prefWidth="163.0" textAlignment="CENTER" textFill="WHITE">

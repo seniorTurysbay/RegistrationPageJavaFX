@@ -27,6 +27,9 @@ public class HomeController extends Controller {
     private Button questionnaireBtn;
 
     @FXML
+    private Button todoBtn;
+
+    @FXML
     void initialize() {
         logoutBtn.setOnAction(event -> {
             logoutBtn.getScene().getWindow().hide();
@@ -36,9 +39,14 @@ public class HomeController extends Controller {
             questionnaireBtn.getScene().getWindow().hide();
             openNewScene("/sample/questionnaire/questionnaire.fxml");
         });
+
+        todoBtn.setOnAction(event -> {
+            todoBtn.getScene().getWindow().hide();
+            openNewScene("/sample/todo/todo.fxml");
+        });
     }
     public void openNewScene(String window){
-        logoutBtn.getScene().getWindow().hide();
+//        logoutBtn.getScene().getWindow().hide();
 
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource(window));
